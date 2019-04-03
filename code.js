@@ -14,3 +14,10 @@ console.log(t2);
 const PI = 3.141516;
 //PI = 22; // we'll have an error, because the variable is const
 console.log(PI);
+//changing values in array with const
+
+const s = [5, 7, 2];
+s[0] = 2;
+s[1] = 5;
+s[2] = 7;
+console.log(s);
