@@ -37,3 +37,9 @@ const myConcat = (arr1, arr2) => arr1.concat(arr2);
 
 
 console.log(myConcat([1, 2], [3, 4, 5]));
+// Using filter
+var words = ['spray', 'limit', 'elite', 'exuberant'];
+
+const result = words.filter(word => word.length > 5); //This function helps to filter data . it should  comply with condition
+
+console.log(result);
