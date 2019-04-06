@@ -89,3 +89,24 @@ const person = {
 
 const marvel = `Hello, my name is ${person.name}`;
 console.log(marvel);
+
+
+//class
+
+class Company {
+    constructor(author) {
+            this._author = author;
+        }
+        // getter
+    get writer() {
+            return this._author;
+        }
+        // setter
+    set writer(updatedAuthor) {
+        this._author = updatedAuthor;
+    }
+}
+const com = new Company('DC');
+console.log(com.writer);
+com.writer = 'Robin';
+console.log(com.writer);
