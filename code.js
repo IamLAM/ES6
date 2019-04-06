@@ -110,3 +110,7 @@ const com = new Company('DC');
 console.log(com.writer);
 com.writer = 'Robin';
 console.log(com.writer);
+
+//if we want to import libraries, we can use both, but its best way is import word
+//require
+//import {maths} from "functions"
