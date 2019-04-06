@@ -118,3 +118,6 @@ console.log(com.writer);
 //if we want to user some code into another file, we'll need to use "e
 //export{foo,bar};
 //export const foo=5;
+
+//export all code into a file
+//import * as maths from "functions"
