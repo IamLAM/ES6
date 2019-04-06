@@ -49,3 +49,13 @@ console.log(result);
 var array1 = [1, 4, 9, 16];
 const map1 = array1.map(x => x * 2); // each value is evaluated and after that is created a new array
 console.log(map1);
+
+//We are using default parameters
+
+function msg(hi = "unknown") {
+
+    return hi + " good morning";
+}
+
+console.log(msg("pepe"));
+console.log(msg());
