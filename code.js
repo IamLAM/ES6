@@ -70,3 +70,9 @@ const sum = (function() {
     };
 })();
 console.log(sum(1, 2, 3)); // 6
+
+//destructuring values
+var coord = { x: 4, y: 3, z: 1 };
+const { x: w, y, z } = coord;
+
+console.log(coord.w);
