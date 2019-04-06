@@ -30,3 +30,10 @@ console.log(S);
 const hola = () => "hola"; // "we are returning "hola" value and we didnt put a name
 
 console.log(hola);
+
+//using parameters and returning values
+
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+
+console.log(myConcat([1, 2], [3, 4, 5]));
