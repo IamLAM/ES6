@@ -114,3 +114,7 @@ console.log(com.writer);
 //if we want to import libraries, we can use both, but its best way is import word
 //require
 //import {maths} from "functions"
+
+//if we want to user some code into another file, we'll need to use "e
+//export{foo,bar};
+//export const foo=5;
