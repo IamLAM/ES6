@@ -24,3 +24,9 @@ Object.freeze(S);
 s[1] = 5;
 s[2] = 7;*/
 console.log(S);
+
+//using anonymous function 
+
+const hola = () => "hola"; // "we are returning "hola" value and we didnt put a name
+
+console.log(hola);
