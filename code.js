@@ -76,3 +76,7 @@ var coord = { x: 4, y: 3, z: 1 };
 const { x: w, y, z } = coord;
 
 console.log(coord.w);
+
+//destructuring arrays
+const [a, b, , , c] = [100, 200, 300, 4000, 5000, 60000];
+console.log(a, b, c);
