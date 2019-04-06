@@ -59,3 +59,14 @@ function msg(hi = "unknown") {
 
 console.log(msg("pepe"));
 console.log(msg());
+
+//using rest operator. this operator is useful, because we can send 2 o more parameters using ...
+
+const sum = (function() {
+    "use strict";
+    return function sum(...args) {
+
+        return args.reduce((a, b) => a + b, 0); //reduce function help to reduce each value in array in a single value
+    };
+})();
+console.log(sum(1, 2, 3)); // 6
