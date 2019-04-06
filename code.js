@@ -43,3 +43,9 @@ var words = ['spray', 'limit', 'elite', 'exuberant'];
 const result = words.filter(word => word.length > 5); //This function helps to filter data . it should  comply with condition
 
 console.log(result);
+
+//Using map
+
+var array1 = [1, 4, 9, 16];
+const map1 = array1.map(x => x * 2); // each value is evaluated and after that is created a new array
+console.log(map1);
