@@ -80,3 +80,12 @@ console.log(coord.w);
 //destructuring arrays
 const [a, b, , , c] = [100, 200, 300, 4000, 5000, 60000];
 console.log(a, b, c);
+
+//literals
+const person = {
+    name: "Batman",
+    age: 35
+};
+
+const marvel = `Hello, my name is ${person.name}`;
+console.log(marvel);
